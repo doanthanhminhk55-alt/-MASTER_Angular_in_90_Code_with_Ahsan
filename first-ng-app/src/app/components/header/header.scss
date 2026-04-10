@@ -6,4 +6,31 @@ header {
     color: white;
     text-align: center;
     justify-content: space-between;
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        >span {
+            cursor: pointer;
+
+            &:hover {
+                color: #777;
+            }
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                cursor: pointer;
+
+                &:hover {
+                    color: #777;
+                }
+            }
+        }
+    }
 }

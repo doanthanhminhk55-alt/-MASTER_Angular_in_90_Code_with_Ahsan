@@ -14,3 +14,15 @@ ng g c header --dry-run
 ng g c components/header --dry-run
 
 ng g c home
+
+ng g c components/counter
+
+ng g c todos
+
+ng g c components/todo-item
+
+ng g service services/todos
+
+>ng g directive directives/hightlight-completed-todo
+
+ng g pipe pipes/filter-todos
